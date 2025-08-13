@@ -29,15 +29,6 @@ st.sidebar.markdown("""
 4. Anirudh Das — MBA/0413/61
 """)
 
-st.sidebar.markdown("""
----
-**Submission Links (optional)**  
-Paste your links here so viewers can access them:
-""")
-repo = st.sidebar.text_input("GitHub Repository URL", placeholder="https://github.com/username/project")
-app_url = st.sidebar.text_input("Deployed Streamlit App URL", placeholder="https://project-name.streamlit.app")
-if repo or app_url:
-    st.sidebar.success("Links saved locally for this session.")
 
 # ---------- Header ----------
 st.title("Data-Driven Mental Health Risk Analysis")
