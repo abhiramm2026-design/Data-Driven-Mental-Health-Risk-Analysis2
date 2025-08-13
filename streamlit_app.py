@@ -32,7 +32,6 @@ st.sidebar.markdown("""
 
 # ---------- Header ----------
 st.title("Data-Driven Mental Health Risk Analysis")
-st.caption("Decision-support using structured data and text models (RNN/LSTM)")
 
 # ---------- Section Renderers ----------
 if choice == "Overview":
